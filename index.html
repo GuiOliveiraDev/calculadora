@@ -4,56 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculadora</title>
 </head>
 <body>
     <h1>Calculadora</h1>
-
-    <div id="display">
-
-        <div id="prev-operation">123 +</div>
-        
-        <div id="current-operation">423</div>
     
-    </div>
+    <div id="calc-body">
+        <div id="calc-name">
+            <h2>Calculadora</h2>
+        </div>
 
-    <div id="buttons-container">
-        <button id="delete">CE</button>
+        <div id="calc-display">
+
+            <div id="calc-operation">123 + 505 + </div>
         
-        <button id="delete">C</button>
+            <div id="calc-typed">42</div>
         
-        <button id="delete">DEL</button>
-        
-        <button id="number">7</button>
-        
-        <button id="number">8</button>
-        
-        <button id="number">9</button>
-        
-        <button id="signs">*</button>
-        
-        <button id="number">4</button>
-        
-        <button id="number">5</button>
-        
-        <button id="number">6</button>
-        
-        <button id="signs">-</button>
-        
-        <button id="number">1</button>
-        
-        <button id="number">2</button>
-        
-        <button id="number">3</button>
-        
-        <button id="signs">+</button>
-        
-        <button id="number">0</button>
-        
-        <button id="number">,</button>
-        
-        <button id="signs" class="equal-btn">=</button>
-        
+        </div>
+        <div id="buttons-container">
+            <button class="delete">CE</button>
+            <button class="delete">C</button>
+            <button class="delete">DEL</button>
+            <button class="symbols">/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="symbols">&#215</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="symbols">&#8722</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="symbols">&#43</button>
+            <button>0</button>
+            <button>,</button>
+            <button class="symbols" id="equal-btn">&#61</button>
+        </div>
     </div>
 </body>
 </html>
