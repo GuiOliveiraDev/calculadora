@@ -5,18 +5,7 @@
     box-shadow: 0 8px 50px -7px black;
     background: #3a4655;
 }
-#calc-name{
-    border: #1d2f33 solid;
-    background: #3a4655;
-    height: 15px;
-    text-align: initial;
-}
 
-#calc-name h2{
-    margin: auto;
-    font-size: 14px;
-    
-}
 #calc-display{
     padding: 1rem;
 }
